@@ -4,7 +4,7 @@ Chapter II of the Ph.D. - Metabolic engineering of Escherichia coli for high-lev
 
 ## Screening of ~3000 small-scale free lipoic acid production cultivations
 In this section of the chapter we describe the engineered free lipoic acid cell factories used in small-scale screening to identify the _E. coli_ strain
-### LA_screening_DataBase
+### LA_screening_DataBase.csv
 A .csv "database" of screening data. This data is show in Chapter II, Figure 4
 Each of the 2924 rows represents one well/cultivation and has the following associated columns:
 
@@ -19,3 +19,6 @@ Each of the 2924 rows represents one well/cultivation and has the following asso
 
 ### DB_CSV.R
 An R-script for gathering and plotting the screening data-base data
+
+### strainlist.csv
+An overview of the strains used for screening in the "La_screening_Databbase.csv". Indicating plasmids and background strains used.
