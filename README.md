@@ -16,6 +16,7 @@ Each of the 2924 rows represents one well/cultivation and has the following asso
 [17] "IPTG_mM"           "Background_strain" "Plasmid_1"         "Plasmid_2"        
 [21] "Rha_mM"            "BA_1250"           "BA_21870"          "max_titer"     
 
+Many rows (wells) do not report any LA titers, not because no lipoic was produced but because the bioassay response was not within the linear range of quantification at the assayed dilutions.
 
 ### DB_CSV.R
 An R-script for gathering and plotting the screening data-base data
